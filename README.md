@@ -6,16 +6,16 @@ Generate a customized avatar with a URL for free!
 
 You can easily create avatars using the API. Here are a few examples:
 
-![Avatar A](https://az-avatar/api/avatar?text=A&height=100&width=100&bgColor=yellow&textColor=black)
-![Avatar B](https://az-avatar/api/avatar?text=B&height=100&width=100&bgColor=red&textColor=black)
-![Avatar C](https://az-avatar/api/avatar?text=C&height=100&width=100&bgColor=blue&textColor=black)
+![Avatar A](https://az-avatar.vercel.app/api/avatar?text=A&height=100&width=100&bgColor=yellow&textColor=black)
+![Avatar B](https://az-avatar.vercel.app/api/avatar?text=B&height=100&width=100&bgColor=red&textColor=black)
+![Avatar C](https://az-avatar.vercel.app/api/avatar?text=C&height=100&width=100&bgColor=blue&textColor=black)
 
 ## URL Format
 
 To generate a customized avatar, use the following URL format:
 
 ```
-https://az-avatar/api/avatar?text=<text>&textColor=<textcolor>&fontSize=<fontsize>&bgColor=<bgcolor>&height=<height>&width=<width>
+https://az-avatar.vercel.app/api/avatar?text=<text>&textColor=<textcolor>&fontSize=<fontsize>&bgColor=<bgcolor>&height=<height>&width=<width>
 ```
 
 ### Parameters
@@ -43,7 +43,7 @@ https://az-avatar/api/avatar?text=<text>&textColor=<textcolor>&fontSize=<fontsiz
 For demonstration, the URL for generating an avatar might look like this:
 
 ```
-https://az-avatar/api/avatar?text=ChatGPT&textColor=ffffff&fontSize=40&bgColor=0000ff&height=100&width=100
+https://az-avatar.vercel.app/api/avatar?text=ChatGPT&textColor=ffffff&fontSize=40&bgColor=0000ff&height=100&width=100
 ```
 
 ## Repository
