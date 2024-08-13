@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Az Avatar
 
-## Getting Started
+Generate a customized avatar with a URL for free!
 
-First, run the development server:
+## Example Avatars
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+You can easily create avatars using the API. Here are a few examples:
+
+![Avatar A](https://az-avatar/api/avatar?text=A&height=100&width=100&bgColor=yellow&textColor=black)
+![Avatar B](https://az-avatar/api/avatar?text=B&height=100&width=100&bgColor=red&textColor=black)
+![Avatar C](https://az-avatar/api/avatar?text=C&height=100&width=100&bgColor=blue&textColor=black)
+
+## URL Format
+
+To generate a customized avatar, use the following URL format:
+
+```
+https://az-avatar/api/avatar?text=<text>&textColor=<textcolor>&fontSize=<fontsize>&bgColor=<bgcolor>&height=<height>&width=<width>
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Parameters
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **`text`**: The text displayed on the avatar. For example, `"R"` or `"ChatGPT"`.
+  - **Usage**: `?text=R`
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **`textColor`**: The color of the text in hexadecimal format (e.g., `"ffffff"` for white).
+  - **Usage**: `?textColor=ffffff`
 
-## Learn More
+- **`fontSize`**: The size of the text in pixels (e.g., `"40"` for 40px).
+  - **Usage**: `?fontSize=40`
 
-To learn more about Next.js, take a look at the following resources:
+- **`bgColor`**: The background color of the avatar in hexadecimal format (e.g., `"0000ff"` for blue).
+  - **Usage**: `?bgColor=0000ff`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **`height`**: The height of the avatar in pixels (e.g., `"100"` for 100px).
+  - **Usage**: `?height=100`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **`width`**: The width of the avatar in pixels (e.g., `"100"` for 100px).
+  - **Usage**: `?width=100`
 
-## Deploy on Vercel
+## Example URL
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+For demonstration, the URL for generating an avatar might look like this:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
+https://az-avatar/api/avatar?text=ChatGPT&textColor=ffffff&fontSize=40&bgColor=0000ff&height=100&width=100
+```
+
+## Repository
+
+For more details, you can visit the [GitHub repository](https://github.com/r2hu1/az-avatar).
+
+- [GitHub](https://github.com/r2hu1/az-avatar)
+- [Star](https://github.com/r2hu1/az-avatar)
+```
+
+### Additional Notes:
+- **Replace `az-avatar`**: Make sure to replace `az-avatar` with your hosted domain or use as it is.
+- **Formatting**: This `README.md` uses Markdown to provide a clear and structured overview of how to use the avatar generation API, including examples and usage instructions.
