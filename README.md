@@ -46,14 +46,6 @@ For demonstration, the URL for generating an avatar might look like this:
 https://az-avatar.vercel.app/api/avatar?text=ChatGPT&textColor=ffffff&fontSize=40&bgColor=0000ff&height=100&width=100
 ```
 
-## Repository
-
-For more details, you can visit the [GitHub repository](https://github.com/r2hu1/az-avatar).
-
-- [GitHub](https://github.com/r2hu1/az-avatar)
-- [Star](https://github.com/r2hu1/az-avatar)
-```
-
 ### Additional Notes:
 - **Replace `az-avatar`**: Make sure to replace `az-avatar` with your hosted domain or use as it is.
 - **Formatting**: This `README.md` uses Markdown to provide a clear and structured overview of how to use the avatar generation API, including examples and usage instructions.
