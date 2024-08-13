@@ -23,14 +23,14 @@ https://az-avatar.vercel.app/api/avatar?text=<text>&textColor=<textcolor>&fontSi
 - **`text`**: The text displayed on the avatar. For example, `"R"`.
   - **Usage**: `?text=R`
 
-- **`textColor`**: The color of the text in hexadecimal format (e.g., `"ffffff"` for white).
-  - **Usage**: `?textColor=ffffff`
+- **`textColor`**: The color of the text in hexadecimal format (e.g., `"#ffffff"` for white).
+  - **Usage**: `?textColor=#ffffff`
 
 - **`fontSize`**: The size of the text in pixels (e.g., `"40"` for 40px).
   - **Usage**: `?fontSize=40`
 
-- **`bgColor`**: The background color of the avatar in hexadecimal format (e.g., `"0000ff"` for blue).
-  - **Usage**: `?bgColor=0000ff`
+- **`bgColor`**: The background color of the avatar in hexadecimal format (e.g., `"#0000ff"` for blue).
+  - **Usage**: `?bgColor=#0000ff`
 
 - **`height`**: The height of the avatar in pixels (e.g., `"100"` for 100px).
   - **Usage**: `?height=100`
