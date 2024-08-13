@@ -20,7 +20,7 @@ https://az-avatar.vercel.app/api/avatar?text=<text>&textColor=<textcolor>&fontSi
 
 ### Parameters
 
-- **`text`**: The text displayed on the avatar. For example, `"R"` or `"ChatGPT"`.
+- **`text`**: The text displayed on the avatar. For example, `"R"`.
   - **Usage**: `?text=R`
 
 - **`textColor`**: The color of the text in hexadecimal format (e.g., `"ffffff"` for white).
